@@ -157,6 +157,9 @@
     margin:20px 0;
 
 }
+.social-icons a{
+    text-decoration: none;
+}
 .email-send-container{
     display: flex;
       background: white;
