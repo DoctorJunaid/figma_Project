@@ -244,6 +244,7 @@ body{
 
 .second-img-section img{
     max-width: 85%;
+    height: auto;
     
     transition: transform 0.3s ease;
 }
@@ -254,6 +255,10 @@ body{
 @media (max-width: 1024px) {
     .second-img-section img:nth-child(3) {
         display: none;
+    }
+    .second-img-section img{
+        margin: 0 auto;
+        height: auto;
     }
 }
 
@@ -404,5 +409,59 @@ body{
     }
     .third-cards img:nth-child(n+4) {
         display: none; 
+    }
+}
+/* fourth section */
+.fourth-section{
+    padding: 20px;
+    margin: 30px calc (auto + 50px);
+}
+.fourth-section h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+.container-fourth {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    max-width: 1200px;
+    margin: 30px auto;
+    justify-items: center;
+    padding: 0 20px;
+}
+
+.container-fourth img {
+    height: 316px;
+    object-fit: cover;
+    max-width: 240px;
+    transition: transform 0.3s ease;
+}
+
+.container-fourth img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .container-fourth {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 12px;
+    }
+    
+    .container-fourth img {
+        height: 280px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-fourth {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 10px;
+    }
+    
+    .container-fourth img {
+        height: 240px;
     }
 }
