@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connect a Wallet</title>
     <link rel="stylesheet" href="../CSS/nav_footer.css">
-    <link rel="stylesheet" href="connnect.css">
+    <link rel="stylesheet" href="sign-up.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+J+Guides:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Sign up</title>
 </head>
 <body>
     <header>
@@ -23,8 +24,8 @@
                 <ul>
                     <li><a href="#">Marketplace</a></li>
                     <li><a href="#">Rankings</a></li>
-                    <li><a href="connect.html">Connect a Wallet</a></li>
-                    <li><a href="../sign-up/sign-up.html" class="button-nav"> 
+                    <li><a href="../connect/connect.html">Connect a Wallet</a></li>
+                    <li><a href="sign-up.html" class="button-nav"> 
                         <span class="image-wrapper"> <img src="../ASSESSTS/User.png" alt=""> </span>
                         Sign up
                     </a></li>
@@ -37,8 +38,8 @@
                         <li onclick="hideSideBar()" ><a href="#" aria-label="Close Menu"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a> </li>
                         <li><a href="#">Marketplace</a></li>
                     <li><a href="#">Rankings</a></li>
-                    <li><a href="connect.html">connect a Wallet</a></li>
-                    <li><a href="../sign-up/sign-up.html">Sign up</a></li>
+                    <li><a href="#">connect a Wallet</a></li>
+                    <li><a href="sign-up.html">Sign up</a></li>
                       
                     </ul>
                 </div>
@@ -47,22 +48,28 @@
         </nav>
         
     </header>
+
     <main>
         <div class="right-section">
-            <img src="Image Placeholder.png" alt="" >
+            <img src="Image Placeholder (2).png" alt="" >
         </div>
         <div class="left-section">
 
-            <h1>Connect wallet</h1>
-            <p>Choose a wallet you want to connect. There are several wallet providers.</p>
-            <a href="#"><img src="Metamask.png" alt="">Metamask</a>
-            <a href="#"><img src="WalletConnect.png" alt="">Wallet Connect</a>
-            <a href="#"><img src="Coinbase.png" alt="">Coinbase</a>
+            <h1>Create account</h1>
+            <p>Welcome! enter your details and start creating, collecting and selling NFTs.</p>
+            <form action="#" method="post">
+                <input type="text" placeholder="&#xf007; Full Name" class="fa fa-user" aria-label="Full Name">
+                <input type="email" placeholder="&#xf0e0; Email" class="fa-regular fa-envelope" aria-label=" Email">
+                <input type="password" placeholder="&#Xf023; Password" class="fa fa-user" aria-label=" Password">
+                <input type="password" placeholder="&#xf023; Confirm Password" class="fa fa-user" aria-label="Confirm Password">
+                <button type="submit">Create account</button>
+            </form>
 
         </div>
 
-    </main>
 
+    </main>
+    
     <footer>
         <div class="container-footer">
             <div class="footer-container1">
@@ -91,7 +98,7 @@
                 <ul>
                     <li><a href="#marketplace">Marketplace</a></li>
                     <li><a href="#rankings">Rankings</a></li>
-                    <li><a href="../connect/connect.html">Connect a wallet</a></li>
+                    <li><a href="#wallet">Connect a wallet</a></li>
                 </ul>
             </div>
     
