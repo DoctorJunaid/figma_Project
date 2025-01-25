@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect a Wallet</title>
+    <link rel="stylesheet" href="../CSS/nav_footer.css">
+    <link rel="stylesheet" href="connnect.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+J+Guides:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <span class="logo">
+                    <a href="../index.html"> <img src="../ASSESSTS/Logo.png" alt=""></a>
+                    </span>
+
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Rankings</a></li>
+                    <li><a href="#">Connect a Wallet</a></li>
+                    <li><a href="#" class="button-nav"> 
+                        <span class="image-wrapper"> <img src="../ASSESSTS/User.png" alt=""> </span>
+                        Sign up
+                    </a></li>
+                    
+                    <li onclick="showSideBar()" class="menu-button"><a href="#" aria-label="Open Menu"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+                </ul>
+            </div>
+                <div class="sidebar">
+                    <ul>
+                        <li onclick="hideSideBar()" ><a href="#" aria-label="Close Menu"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a> </li>
+                        <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Rankings</a></li>
+                    <li><a href="#">connect a Wallet</a></li>
+                    <li><a href="#">Sign up</a></li>
+                      
+                    </ul>
+                </div>
+
+           
+        </nav>
+        
+    </header>
+    <main>
+        <div class="right-section">
+            <img src="Image Placeholder.png" alt="" >
+        </div>
+        <div class="left-section">
+
+            <h1>Connect wallet</h1>
+            <p>Choose a wallet you want to connect. There are several wallet providers.</p>
+            <a href="#"><img src="Metamask.png" alt="">Metamask</a>
+            <a href="#"><img src="WalletConnect.png" alt="">Wallet Connect</a>
+            <a href="#"><img src="Coinbase.png" alt="">Coinbase</a>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div class="footer-container1">
+                <div class="footer-logo">
+                    <img src="../ASSESSTS/Logo.png" alt="NFT Market Logo">
+                </div>
+                <p>NFT marketplace UI created with Anima for Figma. Join our community:</p>
+                <div class="social-icons">
+                    <a href="https://discord.com" target="_blank" aria-label="Discord">
+                        <img src="../ASSESSTS/icons/DiscordLogo.png" alt="Discord Logo">
+                    </a>
+                    <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+                        <img src="../ASSESSTS/icons/YoutubeLogo.png" alt="YouTube Logo">
+                    </a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                        <img src="../ASSESSTS/icons/TwitterLogo.png" alt="Twitter Logo">
+                    </a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                        <img src="../ASSESSTS/icons/InstagramLogo.png" alt="Instagram Logo">
+                    </a>
+                </div>
+            </div>
+    
+            <div class="footer-container2">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#marketplace">Marketplace</a></li>
+                    <li><a href="#rankings">Rankings</a></li>
+                    <li><a href="#wallet">Connect a wallet</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-container3">
+                <h3>Join our weekly digest</h3>
+                <p>Get exclusive promotions & updates straight to your inbox.</p>
+                <form class="email-send-container" action="#" method="post">
+                    <input type="email" placeholder="Enter your email here" aria-label="Email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <script >
+            function showSideBar(){
+    const sidebar=document.querySelector(".sidebar");
+    sidebar.style.display="flex"
+    };
+        function hideSideBar(){
+            const sidebar=document.querySelector(".sidebar");
+            sidebar.style.display="none"
+        }  ;
+        </script>
+</body>
+</html>
